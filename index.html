@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Аренда ps4,ps5 Прокат приставок  Минск </title>
+    <title>Школа программирования</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="content">
-
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">О школе</a></li>
+                <li><a href="#courses">Курсы</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <section id="about">
+        <h2>О нашей школе</h2>
+        <div class="statistic">
+            <div>
+                <h3>500+</h3>
+                <p>Студентов</p>
+            </div>
+            <div>
+                <h3>10+</h3>
+                <p>Курсов</p>
+            </div>
+            <div>
+                <h3>5</h3>
+                <p>Преподавателей</p>
+            </div>
+        </div>
+        <p>Наша школа предоставляет обучение по самым актуальным направлениям в области программирования и информационных технологий.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Наши курсы</h2>
+        <div class="course">
+            <img src="Без названия.png" alt="Курс по Python">
+            <h3>Курс Python</h3>
+            <p>Научитесь программировать на языке Python, освоите основы и продвинутые техники.</p>
+        </div>
+        <div class="course">
+            <img src="Без названия.jpg" alt="Курс по веб-разработке">
+            <h3>Курс Веб-разработки</h3>
+            <p>Создавайте современные веб-приложения с помощью HTML, CSS и JavaScript.</p>
+        </div>
+        <!-- Добавьте дополнительные курсы по аналогии -->
+    </section>
+
+    <section id="reviews">
+        <h2>Отзывы студентов</h2>
+        <div class="review">
+            <img src="Без названия (1).jpg" alt="Студент 1">
+            <h3>Иван Иванов</h3>
+            <p>"Отличная школа! Научился многому за короткое время." <br><strong>Курс:</strong> Python</p>
+        </div>
+        <div class="review">
+            <img src="Без названия (2).jpg" alt="Студент 2">
+            <h3>Мария Петрова</h3>
+            <p>"Преподавание на высшем уровне, очень рекомендую." <br><strong>Курс:</strong> Веб-разработка</p>
+        </div>
+        <!-- Добавьте дополнительные отзывы по аналогии -->
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами через социальные сети:</p>
+        <ul>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+        </ul>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Школа программирования. Все права защищены.</p>
+        <p>Контактная информация: info@school.com</p>
+        <p><a href="#about">О школе</a> | <a href="#courses">Курсы</a> | <a href="#reviews">Отзывы</a> | <a href="#contacts">Контакты</a></p>
+    </footer>
 </body>
 </html>
