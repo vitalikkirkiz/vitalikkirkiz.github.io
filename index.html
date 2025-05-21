@@ -1,95 +1,168 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Школа программирования</title>
+    <title>Travel Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!--header section start-->
     <header>
         <nav>
             <ul>
-                <li><a href="#about">О школе</a></li>
-                <li><a href="#courses">Курсы</a></li>
-                <li><a href="#reviews">Отзывы</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#contacts">contacts</a></li>
             </ul>
         </nav>
+
+        <div class="container">
+            <div class="home-content">
+                <h3>Travel Agancy</h3>
+                <h2>Wonder lust</h2>
+                <h1>About Us</h1>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
     </header>
 
-    <section id="about">
-        <h2>О нашей школе</h2>
-        <div class="statistic">
-            <div>
-                <h3>500+</h3>
-                <p>Студентов</p>
-            </div>
-            <div>
-                <h3>10+</h3>
-                <p>Курсов</p>
-            </div>
-            <div>
-                <h3>5</h3>
-                <p>Преподавателей</p>
-            </div>
+
+    <!--header section end-->
+
+    <!--about section start-->
+
+    <section class="about" id="about">
+        <div class="img-about">
+            <img src="img/1686709424_kartin-papik-pro-p-kartinki-na-avu-neobichnie-priroda-70.jpg" alt="">
         </div>
-        <p>Наша школа предоставляет обучение по самым актуальным направлениям в области программирования и информационных технологий.</p>
+
+        <div class="content-about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt fuga praesentium impedit, fugiat minima
+                reiciendis velit quibusdam maiores dolore! Expedita illo aspernatur voluptates unde eligendi nulla
+                fugiat voluptas fuga hic!</p>
+            <a href="#" class="btn">Learn Morew, </a>
+        </div>
     </section>
 
-    <section id="courses">
-        <h2>Наши курсы</h2>
-        <div class="course">
-            <img src="Без названия.png" alt="Курс по Python">
-            <h3>Курс Python</h3>
-            <p>Научитесь программировать на языке Python, освоите основы и продвинутые техники.</p>
-        </div>
-        <div class="course">
-            <img src="Без названия.jpg" alt="Курс по веб-разработке">
-            <h3>Курс Веб-разработки</h3>
-            <p>Создавайте современные веб-приложения с помощью HTML, CSS и JavaScript.</p>
-        </div>
-        <!-- Добавьте дополнительные курсы по аналогии -->
-    </section>
+    <!--about section end-->
+    <!--services section start-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>services</span></h2>
+        <div class="box-container">
+            <div class="box-item">
+                <div class="top">
+                    <img src="img/tours.png">
+                    <h4>Tours</h4>
+                </div>
+                <div class="bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit illo, commodi facere, at
+                        accusamus, excepturi doloribus cumque provident ad ipsam expedita. Porro alias, corrupti et sit
+                        tempore voluptate consequuntur debitis?</p>
+                    <a href="#" class="btn">more</a>
+                </div>
+            </div>
 
-    <section id="reviews">
-        <h2>Отзывы студентов</h2>
-        <div class="review">
-            <img src="Без названия (1).jpg" alt="Студент 1">
-            <h3>Иван Иванов</h3>
-            <p>"Отличная школа! Научился многому за короткое время." <br><strong>Курс:</strong> Python</p>
-        </div>
-        <div class="review">
-            <img src="Без названия (2).jpg" alt="Студент 2">
-            <h3>Мария Петрова</h3>
-            <p>"Преподавание на высшем уровне, очень рекомендую." <br><strong>Курс:</strong> Веб-разработка</p>
-        </div>
-        <!-- Добавьте дополнительные отзывы по аналогии -->
-    </section>
+            <div class="box-item">
+                <div class="top">
+                    <img src="img/hiking.png">
+                    <h4>Hikking</h4>
+                </div>
+                <div class="bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit illo, commodi facere, at
+                        accusamus, excepturi doloribus cumque provident ad ipsam expedita. Porro alias, corrupti et sit
+                        tempore voluptate consequuntur debitis?</p>
+                    <a href="#" class="btn">more</a>
+                </div>
+            </div>
 
-    <section id="contacts">
-        <h2>Контакты</h2>
-        <p>Свяжитесь с нами через социальные сети:</p>
-        <ul>
-            <li><a href="https://facebook.com">Facebook</a></li>
-            <li><a href="https://twitter.com">Twitter</a></li>
-            <li><a href="https://instagram.com">Instagram</a></li>
-        </ul>
-        <form>
-            <label for="name">Имя:</label>
-            <input type="text" id="name" name="name" required>
+            <div class="box-item">
+                <div class="top">
+                    <img src="img/travel.png">
+                    <h4>Travel</h4>
+                </div>
+                <div class="bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit illo, commodi facere, at
+                        accusamus, excepturi doloribus cumque provident ad ipsam expedita. Porro alias, corrupti et sit
+                        tempore voluptate consequuntur debitis?</p>
+                    <a href="#" class="btn">more</a>
+                </div>
+            </div>
+
+            <div class="box-item">
+                <div class="top">
+                    <img src="img/support.png">
+                    <h4>Support</h4>
+                </div>
+                <div class="bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit illo, commodi facere, at
+                        accusamus, excepturi doloribus cumque provident ad ipsam expedita. Porro alias, corrupti et sit
+                        tempore voluptate consequuntur debitis?</p>
+                    <a href="#" class="btn">more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services section end-->
+    <!--gallery section start-->
+    <section class="gallery" id="gallery">
+        <h2 class="heading"><span>Outdoor</span> Recreation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla sequi praesentium tenetur explicabo enim
+            hic error! Voluptatibus, accusantium repudiandae?</p>
+        <div class="img-container">
+            <div class="img-box">
+                <img src="img/images (12).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/images (10).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/Без названия (15).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/images (6).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/Без названия (10).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/Без названия (11).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/images (2).jpg">
+            </div>
+            <div class="img-box">
+                <img src="img/Без названия (12).jpg">
+            </div>
+        </div>
+    </section>
+    <!--gallery section end-->
+    <!--contacts section start-->
+    <section class="contacts" id="contacts">
+        <h2 class="heading"><span>Contact</span>Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required autocomplete="off" placeholder="Enter your name..">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Сообщение:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Отправить</button>
+            <input type="email" name="email" id="email" required placeholder="Enter
+        your email..">
+            <label for="msg">Massage</label>
+            <textarea name="msg" id="msg" rows="10" required></textarea>
+            <input type="submit" value="submit">
         </form>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Школа программирования. Все права защищены.</p>
-        <p>Контактная информация: info@school.com</p>
-        <p><a href="#about">О школе</a> | <a href="#courses">Курсы</a> | <a href="#reviews">Отзывы</a> | <a href="#contacts">Контакты</a></p>
-    </footer>
+    <!--contacts section end-->
+    <!--footer section start-->
+    <section class="footer" id="footer">
+        <p>&copy;2025 website. All rights reserved</p>
+    </section>
+    <!--footer section end-->
 </body>
+
 </html>
