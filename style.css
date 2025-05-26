@@ -38,6 +38,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 nav ul {
@@ -236,11 +237,12 @@ nav ul li a:hover {
 
 .gellery p {
     font-size: clamp(1.2rem, 1vw + 1.3rem, 1.5rem);
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: justify;
     text-align-last: center;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .gellery .img-container {
@@ -262,12 +264,17 @@ nav ul li a:hover {
     height: 100%;
     object-fit: cover;
     border: var(--border);
-   
+
 }
- 
-.img-container{
+
+.img-container {
     display: flex;
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
 }
+
+
 /*contacts section*/
 .contacts {
     background: var(--black);
@@ -342,4 +349,21 @@ form {
         font-size: clamp(1.2rem, 1vw + 2rem, 2.2rem);
         padding: 2rem;
     }
+
+    .about .contacts-about .btn {
+        padding: 0.8rem 1rem;
+    }
+
+    @media(max-width: 450px) {
+        .about .contacts-about .btn {
+            padding: 0.5rem 8rem;
+        }
+    }
+}
+.heading{
+    text-align: center;
+}
+.p{
+    text-align: center;
+    font-size: 15px;
 }
