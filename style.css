@@ -272,8 +272,12 @@ nav ul li a:hover {
      display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1px;
+    margin: 0 auto;
 }
-
+.img-container img{
+    width: 100%;
+    height: auto;
+}
 
 /*contacts section*/
 .contacts {
@@ -366,4 +370,7 @@ form {
 .p{
     text-align: center;
     font-size: 15px;
+}
+.m{
+    font-size: 20px;
 }
