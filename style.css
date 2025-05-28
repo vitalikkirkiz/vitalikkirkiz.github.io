@@ -202,6 +202,7 @@ nav ul li a:hover {
     background: var(--orange);
     padding: 2rem;
     border-radius: 2rem 2rem 0 0;
+    
 }
 
 .box-item .top h4 {
@@ -269,12 +270,13 @@ nav ul li a:hover {
 
 .img-container {
     display: flex;
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1px;
     margin: 0 auto;
 }
-.img-container img{
+
+.img-container img {
     width: 100%;
     height: auto;
 }
@@ -342,6 +344,7 @@ form {
     form {
         width: 100%;
     }
+ 
 }
 
 @media(max-width: 450px) {
@@ -364,13 +367,16 @@ form {
         }
     }
 }
-.heading{
+
+.heading {
     text-align: center;
 }
-.p{
+
+.p {
     text-align: center;
     font-size: 15px;
 }
-.m{
+
+.m {
     font-size: 20px;
 }
